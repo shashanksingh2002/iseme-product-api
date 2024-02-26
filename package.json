@@ -1,0 +1,30 @@
+{
+  "name": "quad-product-api",
+  "version": "1.0.0",
+  "description": "A backend-api to deal with all kinds of operations related to the iseme product.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shashank Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "husky": "^9.0.10",
+    "joi": "^17.12.1",
+    "knex": "^3.1.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "objection": "^3.1.3",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1"
+  }
+}
